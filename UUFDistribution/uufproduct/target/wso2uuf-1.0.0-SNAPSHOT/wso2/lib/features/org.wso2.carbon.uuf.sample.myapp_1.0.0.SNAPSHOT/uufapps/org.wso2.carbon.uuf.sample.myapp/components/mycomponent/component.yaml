@@ -1,6 +1,0 @@
-apis: [] # No APIs.
-
-bindings: [] # No bindings.
-
-config:
-    pageSize: 10
