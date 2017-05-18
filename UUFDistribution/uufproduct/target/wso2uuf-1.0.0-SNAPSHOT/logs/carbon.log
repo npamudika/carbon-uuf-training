@@ -1,0 +1,17 @@
+[2017-05-18 10:11:33,153]  INFO {org.wso2.msf4j.analytics.metrics.MetricsComponent} - Metrics Component is activated
+[2017-05-18 10:11:33,340]  INFO {com.zaxxer.hikari.HikariDataSource} - HikariPool-0 - is starting.
+[2017-05-18 10:11:33,455]  INFO {org.wso2.msf4j.internal.MicroservicesRegistryImpl} - Added microservice: org.wso2.msf4j.swagger.SwaggerDefinitionService@57150a97
+[2017-05-18 10:11:33,460]  INFO {org.wso2.msf4j.internal.MicroservicesRegistryImpl} - Added microservice: org.wso2.msf4j.swagger.SwaggerDefinitionService@1f7b158b
+[2017-05-18 10:11:33,718]  INFO {org.wso2.msf4j.internal.MicroservicesServerSC} - All microservices are available
+[2017-05-18 10:11:33,719]  INFO {org.wso2.carbon.transport.http.netty.internal.HTTPTransportServiceComponent} - All CarbonHTTPServerInitializers are available
+[2017-05-18 10:11:33,740]  INFO {org.wso2.msf4j.internal.MicroservicesRegistryImpl} - Added microservice: org.wso2.carbon.uuf.httpconnector.msf4j.UUFMicroservice@7c266aea
+[2017-05-18 10:11:33,742]  INFO {org.wso2.msf4j.internal.MicroservicesRegistryImpl} - Added microservice: org.wso2.carbon.uuf.httpconnector.msf4j.UUFMicroservice@7c266aea
+[2017-05-18 10:11:33,743]  WARN {org.wso2.carbon.kernel.internal.startupresolver.StartupComponentManager} - You are trying to add an available capability org.wso2.msf4j.Microservice from bundle(org.wso2.carbon.uuf.httpconnector.msf4j:1.0.0.SNAPSHOT) to an already activated startup listener component wso2-microservices-server in bundle(msf4j-core:2.3.0.m1). Refer the Startup Order Resolver documentation and verify your configuration
+[2017-05-18 10:11:33,743]  INFO {org.wso2.carbon.uuf.httpconnector.msf4j.internal.MSF4JHttpConnector} - UUF app 'org.wso2.carbon.uuf.sample.myapp' is available at '/myapp'.
+[2017-05-18 10:11:33,819]  INFO {org.wso2.carbon.transport.http.netty.listener.ServerConnectorController} - Started listener http-9090
+[2017-05-18 10:11:33,819]  INFO {org.wso2.carbon.transport.http.netty.listener.ServerConnectorController} - HTTP Interface msf4j-http starting on host  0.0.0.0 and port 9090
+[2017-05-18 10:11:33,820]  INFO {org.wso2.carbon.transport.http.netty.listener.ServerConnectorController} - Started listener https-9292
+[2017-05-18 10:11:33,822]  INFO {org.wso2.carbon.transport.http.netty.listener.ServerConnectorController} - HTTPS Interface msf4j-https starting on host  0.0.0.0 and port 9292
+[2017-05-18 10:11:33,827]  INFO {org.wso2.carbon.kernel.internal.CarbonStartupHandler} - WSO2 Carbon Kernel started in 2.295 sec
+[2017-05-18 10:11:48,657]  WARN {org.wso2.carbon.uuf.internal.deployment.AppCreator} - No authorizer is configured for 'org.wso2.carbon.uuf.sample.myapp.feature' app.
+[2017-05-18 10:11:48,669]  INFO {org.wso2.carbon.uuf.internal.deployment.AppRegistry} - UUF app 'org.wso2.carbon.uuf.sample.myapp.feature' deployed for context path '/myapp' successfully.

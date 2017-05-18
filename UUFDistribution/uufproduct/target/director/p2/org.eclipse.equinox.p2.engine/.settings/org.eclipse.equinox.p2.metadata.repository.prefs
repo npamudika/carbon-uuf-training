@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/enabled=true
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/isSystem=false
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/name=Repository with p2 Director Bundles (Incubation)
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/suffix=content.xml
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/uri=jar\:file\:/home/viduran/.m2/repository/org/eclipse/tycho/tycho-standalone-p2-director/0.25.0/tycho-standalone-p2-director-0.25.0.zip\!/
+repositories/jar\:file\:_home_viduran_.m2_repository_org_eclipse_tycho_tycho-standalone-p2-director_0.25.0_tycho-standalone-p2-director-0.25.0.zip\!/version=1.0.0
