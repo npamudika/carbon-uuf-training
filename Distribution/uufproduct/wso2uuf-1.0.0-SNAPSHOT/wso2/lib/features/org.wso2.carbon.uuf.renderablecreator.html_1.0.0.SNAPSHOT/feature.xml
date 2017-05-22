@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.uuf.renderablecreator.html" label="WSO2 UUF - Renderable Creator - HTML - Feature" provider-name="%providerName" version="1.0.0.SNAPSHOT">
+  <description>This feature contains the HTML Renderable Creator for UUF server</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.uuf.renderablecreator.html" unpack="false" version="1.0.0.SNAPSHOT"/>
+  <plugin id="org.antlr.antlr4-runtime-osgi" unpack="false" version="4.5.1.1"/>
+  <require>
+    <import feature="org.wso2.carbon.uuf.core" match="compatible" version="1.0.0.SNAPSHOT"/>
+  </require>
+</feature>

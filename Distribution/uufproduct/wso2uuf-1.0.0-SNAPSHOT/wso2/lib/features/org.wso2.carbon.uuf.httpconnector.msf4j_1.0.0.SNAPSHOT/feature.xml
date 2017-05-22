@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.uuf.httpconnector.msf4j" label="WSO2 UUF - HTTP Connector - MSF4J - Feature" provider-name="%providerName" version="1.0.0.SNAPSHOT">
+  <description>This feature contains the MSF4J HTTP Connector for UUF server</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.uuf.httpconnector.msf4j" unpack="false" version="1.0.0.SNAPSHOT"/>
+  <require>
+    <import feature="org.wso2.msf4j" match="compatible" version="2.3.0.m1"/>
+    <import feature="org.wso2.carbon.uuf.core" match="compatible" version="1.0.0.SNAPSHOT"/>
+  </require>
+</feature>
