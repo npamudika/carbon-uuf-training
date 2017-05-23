@@ -25,5 +25,5 @@
  * @returns {Object.<string, Object>} View Model for Handlebars
  */
 function onGet(env) {
-    return {"myComponentMessage": "Component - My Component...!!!"};
+    return {"helloMessage": "hello world...!!!"};
 }

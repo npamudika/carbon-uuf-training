@@ -3,31 +3,30 @@
 ### Example 1:
 
 ```bash
-mvn archetype:generate -DarchetypeVersion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.wso2.carbon.uuf.maven -DarchetypeArtifactId=uuf-application-archetype
+mvn archetype:generate -DarchetypeVersion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.wso2.carbon.uuf.maven -DarchetypeArtifactId=uuf-app-archetype
 ```
 
 will generate the app with default values...
 
-* **groupId:** org.wso2.carbon.uuf.sample
-* **artifactId:** org.wso2.carbon.uuf.sample.hello-world.feature
-* **version:** 1.0.0-SNAPSHOT
-* **package:** org.wso2.carbon.uuf.sample.hello-world
-* **applicationName:** Hello World App
-
+**groupId:** org.wso2.carbon.uuf.sample
+**artifactId:** org.wso2.carbon.uuf.sample.hello-world.feature
+**version:** 1.0.0-SNAPSHOT
+**package:** org.wso2.carbon.uuf.sample
+**directoryName:** org.wso2.carbon.uuf.sample.hello-world.app
 
 ### Example 2:
 
 ```bash
-mvn archetype:generate -DarchetypeVersion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.wso2.carbon.uuf.maven -DarchetypeArtifactId=uuf-application-archetype -DgroupId=org.wso2.carbon.uuf.sample -DartifactId=org.wso2.carbon.uuf.sample.myapp.feature -Dversion=1.0.0-SNAPSHOT -Dpackage=org.wso2.carbon.uuf.sample.myapp -DapplicationName=My\ App
+mvn archetype:generate -DarchetypeVersion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.wso2.carbon.uuf.maven -DarchetypeArtifactId=uuf-app-archetype -DgroupId=org.wso2.carbon.uuf.sample -DartifactId=org.wso2.carbon.uuf.sample.myapp.feature -Dversion=1.0.0-SNAPSHOT -DdirectoryName=org.wso2.carbon.uuf.sample.myapp.app
 ```
 
 will generate the app with...
 
-* **groupId:** org.wso2.carbon.uuf.sample
-* **artifactId:** org.wso2.carbon.uuf.sample.myapp.feature
-* **version:** 1.0.0-SNAPSHOT
-* **package:** org.wso2.carbon.uuf.sample.myapp
-* **applicationName:** My App
+**groupId:** org.wso2.carbon.uuf.sample
+**artifactId:** org.wso2.carbon.uuf.sample.myapp.feature
+**version:** 1.0.0-SNAPSHOT
+**package:** org.wso2.carbon.uuf.sample.myapp
+**directoryName:** org.wso2.carbon.uuf.sample.myapp.app
 
 ##### Note:
 

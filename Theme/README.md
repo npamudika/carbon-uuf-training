@@ -9,9 +9,8 @@ mvn archetype:generate -DarchetypeVersion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.
 will generate the app with default values...
 
 * **groupId:** org.wso2.carbon.uuf
-* **artifactId:** org.wso2.carbon.uuf.theme.default
+* **artifactId:** org.wso2.carbon.uuf.theme.default.theme
 * **version:** 1.0.0-SNAPSHOT
-* **package:** org.wso2.carbon.uuf.theme.default
 
 ### Example 2:
 
@@ -22,9 +21,8 @@ mvn archetype:generate -DarchetypeVersion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.
 will generate the app with...
 
 * **groupId:** org.wso2.carbon.uuf.sample
-* **artifactId:** org.wso2.carbon.uuf.sample.mytheme
+* **artifactId:** org.wso2.carbon.uuf.sample.mytheme.theme
 * **version:** 1.0.0-SNAPSHOT
-* **package:** org.wso2.carbon.uuf.sample.mytheme
 
 # STRUCTURE OF THE THEME
 
